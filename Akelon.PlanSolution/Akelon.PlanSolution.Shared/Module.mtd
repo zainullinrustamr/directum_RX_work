@@ -1,0 +1,62 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "087465f2-0732-4500-8dce-53d693ac78df",
+  "Name": "PlanSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Akelon.PlanSolution.Client",
+  "ClientBaseAssemblyName": "Akelon.PlanSolution.ClientBase",
+  "ClientBaseNamespace": "Akelon.PlanSolution.ClientBase",
+  "ClientNamespace": "Akelon.PlanSolution.Client",
+  "Code": "PlanSol",
+  "CompanyCode": "Akelon",
+  "Cover": {
+    "NameGuid": "94f32fa9-3d91-4981-8c83-17ebb9530951",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "a8b46c47-be6b-4def-979f-c3bf9d04cb96",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "f242c1ed-21e7-4313-a0fb-d1bae2fa8dab",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Akelon.PlanSolution",
+  "IsolatedAssemblyName": "Akelon.PlanSolution.Isolated",
+  "IsolatedNamespace": "Akelon.PlanSolution.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Akelon.PlanSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Akelon.PlanSolution.Server",
+  "ServerNamespace": "Akelon.PlanSolution.Server",
+  "SharedAssemblyName": "Akelon.PlanSolution.Shared",
+  "SharedNamespace": "Akelon.PlanSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.2",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

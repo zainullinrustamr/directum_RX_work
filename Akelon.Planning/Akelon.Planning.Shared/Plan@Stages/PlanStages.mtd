@@ -1,0 +1,75 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "8f29ca90-5da8-41c8-8600-fd018e6cec91",
+  "Name": "PlanStages",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "PlanStages",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "aacd8ecd-f106-4bac-a82b-73a4893c1c45",
+      "Name": "Plan",
+      "CanBeSearch": false,
+      "Code": "Plan",
+      "EntityGuid": "a3da723b-4eaf-43b8-9f17-f23629a4b14b",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "73d54025-5ae3-410b-b735-d6d61b7ee5f5",
+      "Name": "Name",
+      "CanBeSearch": false,
+      "Code": "Name",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "aacd8ecd-f106-4bac-a82b-73a4893c1c45"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "67c34056-8096-4752-aaa6-bb7fb04903a3",
+      "Name": "StartDate",
+      "CanBeSearch": false,
+      "Code": "StartDate",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "73d54025-5ae3-410b-b735-d6d61b7ee5f5"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "d7283e78-d0c3-4173-865b-a4a53a8f1d0b",
+      "Name": "EndDate",
+      "CanBeSearch": false,
+      "Code": "EndDate",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "67c34056-8096-4752-aaa6-bb7fb04903a3"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "e3a13ac4-f8af-4d08-8d62-7944f37f8715",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "76b2299e-0122-475b-b0c3-0a68231e36eb",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 13
+    }
+  ]
+}

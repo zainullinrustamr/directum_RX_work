@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Property_Number" xml:space="preserve">
+    <value>Номер обращения</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Property_CreatedDate" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="Property_ClosedDate" xml:space="preserve">
+    <value>Дата закрытия</value>
+  </data>
+  <data name="Property_RequestKind" xml:space="preserve">
+    <value>Тип обращения</value>
+  </data>
+  <data name="Property_Responsible" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
+  <data name="Property_LifeCycle" xml:space="preserve">
+    <value>Жизненный цикл</value>
+  </data>
+  <data name="Enum_LifeCycle_InWork" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="Enum_LifeCycle_OnControl" xml:space="preserve">
+    <value>На контроле</value>
+  </data>
+  <data name="Enum_LifeCycle_Closed" xml:space="preserve">
+    <value>Закрыто</value>
+  </data>
+  <data name="Property_Result" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Property_Communication" xml:space="preserve">
+    <value>Общение</value>
+  </data>
+  <data name="ControlGroup_e1ff218dd7f740b3ad1d0f4affc4a6f4" xml:space="preserve">
+    <value>Общая информация</value>
+  </data>
+  <data name="ControlGroup_604d94a98b0544e1ac5ac2fe6bfebe01" xml:space="preserve">
+    <value>Общение</value>
+  </data>
+  <data name="ControlGroup_ffcc6f8d4f7f48968c20ccba1c8199bb" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_2cdeca49309a44bbb5d3922df5d18a6d" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_EmployeesCollection" xml:space="preserve">
+    <value>Отметка по обращению</value>
+  </data>
+  <data name="Property_AmountHours" xml:space="preserve">
+    <value>Сумма часов</value>
+  </data>
+  <data name="Form_2de122c01b0c47e3873203bc094beb62" xml:space="preserve">
+    <value>Отработанные часы</value>
+  </data>
+  <data name="ControlGroup_dfb00d56175c492e9b33fdadebc7cd65" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_OpenRequest" xml:space="preserve">
+    <value>Открыть обращение</value>
+  </data>
+  <data name="Action_OpenRequestDescription" xml:space="preserve">
+    <value> Открыть обращение</value>
+  </data>
+  <data name="Action_OpenRequestHint" xml:space="preserve">
+    <value> Открыть обращение</value>
+  </data>
+  <data name="Action_OpenRequestConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_OpenRequestConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CreateAddendumRequest" xml:space="preserve">
+    <value>Создать приложение к обращению</value>
+  </data>
+  <data name="Ribbon_GroupRequest_53806b0f58f246e9bd4bbe9eeab58022" xml:space="preserve">
+    <value>Работа с обращениями</value>
+  </data>
+  <data name="Action_CreateAddendumRequestDescription" xml:space="preserve">
+    <value>Создать приложение к обращению</value>
+  </data>
+  <data name="Action_CreateAddendumRequestHint" xml:space="preserve">
+    <value>Создать приложение к обращению</value>
+  </data>
+  <data name="Action_CreateAddendumRequestConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CreateAddendumRequestConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+</root>

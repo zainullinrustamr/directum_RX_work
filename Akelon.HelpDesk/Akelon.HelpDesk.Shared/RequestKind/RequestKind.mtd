@@ -1,0 +1,145 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "d0de7346-0896-41dc-84a4-958179dc1354",
+  "Name": "RequestKind",
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "Code": "RequestKind",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "f49d3a33-da52-4c4c-b230-17bd7f1da234",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "c85c4873-1c81-402c-8c2d-aa98c5a8ec1e",
+          "Name": "ControlGroup"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "34720237-af6d-42a8-952e-8c34482d0f0d",
+          "Name": "Control",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "c85c4873-1c81-402c-8c2d-aa98c5a8ec1e",
+          "PropertyGuid": "826b6b23-2fc6-4567-a6a9-0891fe43112c",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "5d36d828-4916-4dd8-8df6-a33d1177b340",
+          "Name": "Status",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "c85c4873-1c81-402c-8c2d-aa98c5a8ec1e",
+          "PropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "cdf72acd-19eb-44e7-8b57-b9e91f5440f4",
+          "Name": "Note",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
+          "ParentGuid": "c85c4873-1c81-402c-8c2d-aa98c5a8ec1e",
+          "PropertyGuid": "e8b1da9d-111a-4e73-82ab-5cb947fcf782",
+          "RowNumber": 2,
+          "RowSpan": 3,
+          "Settings": [
+            {
+              "Name": "NeedAutosize",
+              "Value": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "HelpDeskRequestKind",
+  "IsStatusEnabled": true,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsStatusEnabled"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+      "Name": "Status",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "IsShowedInList",
+        "IsVisibility",
+        "CanBeSearch"
+      ]
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "826b6b23-2fc6-4567-a6a9-0891fe43112c",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e8b1da9d-111a-4e73-82ab-5cb947fcf782",
+      "Name": "Note",
+      "Code": "Note",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "826b6b23-2fc6-4567-a6a9-0891fe43112c"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "8b5abc44-8e04-4257-bc1c-0142e67f827e",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "1aca7fdd-1e76-421d-8141-9941f0d865df",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 13
+    }
+  ]
+}

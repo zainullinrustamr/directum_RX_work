@@ -1,0 +1,62 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "502616f7-3beb-4b4a-8b5c-1064158f3583",
+  "Name": "StudySolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Akelon.StudySolution.Client",
+  "ClientBaseAssemblyName": "Akelon.StudySolution.ClientBase",
+  "ClientBaseNamespace": "Akelon.StudySolution.ClientBase",
+  "ClientNamespace": "Akelon.StudySolution.Client",
+  "Code": "StudySo",
+  "CompanyCode": "Akelon",
+  "Cover": {
+    "NameGuid": "f0b9935f-4143-4091-85aa-ac42e5f81ee0",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "7332bcb4-7ff4-4d6c-8674-786d03b9cdab",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "099e2cb6-90af-45bc-8d56-057169beafaf",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Akelon.StudySolution",
+  "IsolatedAssemblyName": "Akelon.StudySolution.Isolated",
+  "IsolatedNamespace": "Akelon.StudySolution.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Akelon.StudySolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Akelon.StudySolution.Server",
+  "ServerNamespace": "Akelon.StudySolution.Server",
+  "SharedAssemblyName": "Akelon.StudySolution.Shared",
+  "SharedNamespace": "Akelon.StudySolution.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.1",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

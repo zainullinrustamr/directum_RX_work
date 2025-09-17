@@ -1,0 +1,82 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "e75a8ec4-2c75-4ff3-b149-594923324be9",
+  "Name": "RequestEmployeesCollection",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "RequestEmploye",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "84b05462-56f6-43ca-9bdf-6a2a5e7832a7",
+      "Name": "Request",
+      "CanBeSearch": false,
+      "Code": "Request",
+      "EntityGuid": "eee00fcc-65c6-442e-96db-00e4db3aecef",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ce038baf-a468-4a21-8aea-60c06d87fabb",
+      "Name": "Date",
+      "CanBeSearch": false,
+      "Code": "Date",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "84b05462-56f6-43ca-9bdf-6a2a5e7832a7"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "7d6ceaa5-c97c-4aef-88d6-57f4d9a2b4b1",
+      "Name": "Employee",
+      "CanBeSearch": false,
+      "Code": "Employee",
+      "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "ce038baf-a468-4a21-8aea-60c06d87fabb"
+    },
+    {
+      "$type": "Sungero.Metadata.DoublePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "48a0795e-ef2e-48c6-8fc0-a86316943c51",
+      "Name": "NumberHours",
+      "CanBeSearch": false,
+      "Code": "NumberHours",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "7d6ceaa5-c97c-4aef-88d6-57f4d9a2b4b1"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "31024916-b634-4241-9ece-c56d480d0409",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "8a3db7c6-56cf-4c33-9530-e29268c1ab48",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 13
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "592b4f18-8d57-47a4-87d4-bb318ac16dc7",
+  "Name": "HelpDesk",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Akelon.HelpDesk.Client",
+  "ClientBaseAssemblyName": "Akelon.HelpDesk.ClientBase",
+  "ClientBaseNamespace": "Akelon.HelpDesk.ClientBase",
+  "ClientNamespace": "Akelon.HelpDesk.Client",
+  "Code": "HelpDes",
+  "CompanyCode": "Akelon",
+  "Cover": {
+    "NameGuid": "cc7e1cbc-d5e0-4731-81ae-8138c67c52c0",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "599d02fb-50e6-4ba2-8cbe-e4f16fd9e489",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "e2837ef3-df1b-4ec3-b409-5f130552ce0d",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "502616f7-3beb-4b4a-8b5c-1064158f3583",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "d0de7346-0896-41dc-84a4-958179dc1354"
+    },
+    {
+      "ItemId": "eee00fcc-65c6-442e-96db-00e4db3aecef",
+      "PreviousItemId": "d0de7346-0896-41dc-84a4-958179dc1354"
+    },
+    {
+      "ItemId": "96905e30-71c2-40f9-a38e-bd416c1e59a5",
+      "PreviousItemId": "eee00fcc-65c6-442e-96db-00e4db3aecef"
+    },
+    {
+      "ItemId": "de8fc924-ef6f-4faf-8b40-30838f549f12",
+      "PreviousItemId": "96905e30-71c2-40f9-a38e-bd416c1e59a5"
+    },
+    {
+      "ItemId": "66a04586-980c-4e4e-9116-c2398a27ccc6",
+      "PreviousItemId": "de8fc924-ef6f-4faf-8b40-30838f549f12"
+    },
+    {
+      "ItemId": "669031dd-270d-4aa9-8fc7-72f47e434867",
+      "PreviousItemId": "66a04586-980c-4e4e-9116-c2398a27ccc6"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Akelon.HelpDesk",
+  "IsolatedAssemblyName": "Akelon.HelpDesk.Isolated",
+  "IsolatedNamespace": "Akelon.HelpDesk.Isolated",
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Akelon.HelpDesk",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Akelon.HelpDesk.Server",
+  "ServerNamespace": "Akelon.HelpDesk.Server",
+  "SharedAssemblyName": "Akelon.HelpDesk.Shared",
+  "SharedNamespace": "Akelon.HelpDesk.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.1",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

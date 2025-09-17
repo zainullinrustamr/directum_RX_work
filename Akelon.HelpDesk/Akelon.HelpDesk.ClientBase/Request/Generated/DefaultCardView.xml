@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <ViewName>Default</ViewName>
+  <Collection358bcbe8d252452c9f911364ef1368c2 FormGuid="2de122c0-1b0c-47e3-8732-03bc094beb62">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="View" isnull="true" iskey="true">
+          <property name="LinesPerRowMode">None</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">843,-2</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowSorting">true</property>
+          <property name="ShowTotalSummary">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+        </property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="SortInfo" iskey="true" value="0" />
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="GroupCount">0</property>
+        <property name="Columns" iskey="true" value="3">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">Request_EmployeesCollection_Date</property>
+            <property name="FieldName">Date</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">53</property>
+            <property name="ActualWidth">6*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">Request_EmployeesCollection_Employee</property>
+            <property name="FieldName">Employee</property>
+            <property name="VisibleIndex">1</property>
+            <property name="Width">80</property>
+            <property name="ActualWidth">9*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">Request_EmployeesCollection_NumberHours</property>
+            <property name="FieldName">NumberHours</property>
+            <property name="VisibleIndex">2</property>
+            <property name="Width">115</property>
+            <property name="ActualWidth">13*</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection358bcbe8d252452c9f911364ef1368c2>
+</settings>

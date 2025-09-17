@@ -1,0 +1,71 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "e2a16a93-7243-4df5-aba6-fa5d60ce7d5c",
+  "Name": "Planning",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Akelon.Planning.Client",
+  "ClientBaseAssemblyName": "Akelon.Planning.ClientBase",
+  "ClientBaseNamespace": "Akelon.Planning.ClientBase",
+  "ClientNamespace": "Akelon.Planning.Client",
+  "Code": "Plannin",
+  "CompanyCode": "Akelon",
+  "Cover": {
+    "NameGuid": "da8f9d05-311b-43fd-8b56-76d8c20cca67",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "fa6ae8af-fcd6-4543-8837-b960414c8f4f",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "50a9482d-6823-4525-8144-c7e4b75fe544",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "087465f2-0732-4500-8dce-53d693ac78df",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "a3da723b-4eaf-43b8-9f17-f23629a4b14b"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Akelon.Planning",
+  "IsolatedAssemblyName": "Akelon.Planning.Isolated",
+  "IsolatedNamespace": "Akelon.Planning.Isolated",
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Akelon.Planning",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Akelon.Planning.Server",
+  "ServerNamespace": "Akelon.Planning.Server",
+  "SharedAssemblyName": "Akelon.Planning.Shared",
+  "SharedNamespace": "Akelon.Planning.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.2",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
