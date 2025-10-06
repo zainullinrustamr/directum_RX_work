@@ -70,11 +70,26 @@
             {
               "Name": "NeedAutosize",
               "Value": false
+            },
+            {
+              "Name": "Height",
+              "Value": 100
+            },
+            {
+              "Name": "NeedExpand",
+              "Value": false
             }
           ]
         }
       ]
     }
+  ],
+  "HandledEvents": [
+    "AfterSaveServer",
+    "CreatedServer",
+    "RefreshClient",
+    "BeforeSaveServer",
+    "ShowingClient"
   ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "HelpDeskRequestKind",

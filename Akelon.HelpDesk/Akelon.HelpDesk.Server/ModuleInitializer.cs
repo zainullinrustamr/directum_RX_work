@@ -13,13 +13,14 @@ namespace Akelon.HelpDesk.Server
     public override void Initializing(Sungero.Domain.ModuleInitializingEventArgs e)
     {
       CreateRequestRecord();
+      
     }
 
     /// <summary>
     /// 
     /// </summary>
     public void CreateRequestRecord()
-    { 
+    {
       var temp = Sungero.Company.Employees.GetAll().Where(e => e.Login.LoginName == "Radion");
       if (!HelpDesk.InternalRequests.GetAll().Where(e => e.Author.Login.LoginName == "Radion").Any())
       {
@@ -34,9 +35,9 @@ namespace Akelon.HelpDesk.Server
         Ref.CreatedDate = Calendar.Today;
         Ref.Author = Sungero.Company.Employees.GetAll().Where(e => e.Login.LoginName == "Radion").FirstOrDefault();
         Ref.Save();
+        
       }
-      
-      
     }
+  
   }
 }

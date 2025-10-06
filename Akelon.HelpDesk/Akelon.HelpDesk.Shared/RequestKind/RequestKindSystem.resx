@@ -73,4 +73,7 @@
   <data name="Property_Note" xml:space="preserve">
     <value>Примечание</value>
   </data>
+  <data name="Control_cdf72acd19eb44e78b57b9e91f5440f4_EmptyText" xml:space="preserve">
+    <value />
+  </data>
 </root>

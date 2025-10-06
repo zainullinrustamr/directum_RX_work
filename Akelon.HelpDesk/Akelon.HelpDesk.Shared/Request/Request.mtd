@@ -206,12 +206,7 @@
           "PropertyGuid": "6ff9af95-9fd4-4f29-8c10-e9a92476f512",
           "RowNumber": 6,
           "RowSpan": 1,
-          "Settings": [
-            {
-              "Name": "NeedExpand",
-              "Value": true
-            }
-          ]
+          "Settings": []
         },
         {
           "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
@@ -323,12 +318,12 @@
       "PreviousPropertyGuid": "3dc12c34-6a8f-41ba-ad53-f47fabb182da"
     },
     {
-      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
       "NameGuid": "6ff9af95-9fd4-4f29-8c10-e9a92476f512",
       "Name": "Description",
       "Code": "Description",
       "IsRequired": true,
-      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "dba02564-a9e6-4e74-9d96-923ece95db2b"
     },
     {

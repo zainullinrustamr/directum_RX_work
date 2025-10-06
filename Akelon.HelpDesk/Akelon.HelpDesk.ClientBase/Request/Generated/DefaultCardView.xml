@@ -30,7 +30,7 @@
             <property name="Name">Request_EmployeesCollection_Date</property>
             <property name="FieldName">Date</property>
             <property name="VisibleIndex">0</property>
-            <property name="Width">53</property>
+            <property name="Width">60</property>
             <property name="ActualWidth">6*</property>
           </property>
           <property name="Item2" isnull="true" iskey="true">
@@ -38,7 +38,7 @@
             <property name="Name">Request_EmployeesCollection_Employee</property>
             <property name="FieldName">Employee</property>
             <property name="VisibleIndex">1</property>
-            <property name="Width">80</property>
+            <property name="Width">89</property>
             <property name="ActualWidth">9*</property>
           </property>
           <property name="Item3" isnull="true" iskey="true">
@@ -46,7 +46,7 @@
             <property name="Name">Request_EmployeesCollection_NumberHours</property>
             <property name="FieldName">NumberHours</property>
             <property name="VisibleIndex">2</property>
-            <property name="Width">115</property>
+            <property name="Width">129</property>
             <property name="ActualWidth">13*</property>
           </property>
         </property>

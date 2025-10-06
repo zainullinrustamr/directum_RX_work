@@ -23,7 +23,7 @@ namespace Akelon.HelpDesk.Server
       {
         document.AccessRights.Grant(_obj.Responsible, DefaultAccessRightsTypes.Change);
       }
-        return document;
+      return document;
     }
 
     /// <summary>
@@ -38,6 +38,9 @@ namespace Akelon.HelpDesk.Server
       _obj.LifeCycle = Akelon.HelpDesk.Request.LifeCycle.InWork;
       
     }
+    
+  
+    
 
   }
 }

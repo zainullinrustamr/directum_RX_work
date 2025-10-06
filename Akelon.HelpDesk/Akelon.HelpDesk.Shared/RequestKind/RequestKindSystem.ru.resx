@@ -61,4 +61,7 @@
   <data name="Property_Name" xml:space="preserve">
     <value>Имя</value>
   </data>
+  <data name="Control_cdf72acd19eb44e78b57b9e91f5440f4_EmptyText" xml:space="preserve">
+    <value>Заполните примечание</value>
+  </data>
 </root>
