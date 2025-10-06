@@ -64,4 +64,10 @@
   <data name="CoverTitle" xml:space="preserve">
     <value>HelpDesk</value>
   </data>
+  <data name="JobDescription_b8ba118c98674bdfb9a1c51438a60082" xml:space="preserve">
+    <value>Отправка уведомлений о зарегистрированных обращениях</value>
+  </data>
+  <data name="JobDisplayName_b8ba118c98674bdfb9a1c51438a60082" xml:space="preserve">
+    <value>Поддержка пользователей. Рассылка сводки по созданным обращениям</value>
+  </data>
 </root>

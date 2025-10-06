@@ -31,6 +31,11 @@
       "IsSolutionModule": true,
       "MaxVersion": "",
       "MinVersion": ""
+    },
+    {
+      "Id": "92491aa6-c4df-4f46-a807-ebdd337bda74",
+      "MaxVersion": "",
+      "MinVersion": "1.1.0.0"
     }
   ],
   "ExplorerTreeOrder": [
@@ -52,6 +57,14 @@
     {
       "ItemId": "669031dd-270d-4aa9-8fc7-72f47e434867",
       "PreviousItemId": "de8fc924-ef6f-4faf-8b40-30838f549f12"
+    },
+    {
+      "ItemId": "66cc09e0-9075-4871-90b4-4665ab2e4689",
+      "PreviousItemId": "669031dd-270d-4aa9-8fc7-72f47e434867"
+    },
+    {
+      "ItemId": "0cba2494-ab02-4106-ae71-bc9077e3db3a",
+      "PreviousItemId": "66cc09e0-9075-4871-90b4-4665ab2e4689"
     }
   ],
   "HandledEvents": [
@@ -63,6 +76,15 @@
   "InterfaceNamespace": "Akelon.HelpDesk",
   "IsolatedAssemblyName": "Akelon.HelpDesk.Isolated",
   "IsolatedNamespace": "Akelon.HelpDesk.Isolated",
+  "Jobs": [
+    {
+      "NameGuid": "b8ba118c-9867-4bdf-b9a1-c51438a60082",
+      "Name": "SendNotificationAboutRequests",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T23:10:00"
+    }
+  ],
   "Overridden": [
     "IsVisible"
   ],

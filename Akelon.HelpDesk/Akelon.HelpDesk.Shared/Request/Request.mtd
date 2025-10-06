@@ -18,6 +18,14 @@
       "GenerateHandler": true,
       "LargeIconName": "Action_CreateAddendumRequest_large_494e2299e5f44f94b0b8ac8f4165da27.png",
       "SmallIconName": "Action_CreateAddendumRequest_small_494e2299e5f44f94b0b8ac8f4165da27.png"
+    },
+    {
+      "NameGuid": "fe3dc8ff-0057-4ed8-93e2-b8dc11c0cbe0",
+      "Name": "CreateTask",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": null
     }
   ],
   "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
@@ -445,6 +453,14 @@
         "Name": "CreateAddendumDocument",
         "ActionGuid": "494e2299-e5f4-4f94-b0b8-ac8f4165da27",
         "Index": 1,
+        "ParentGuid": "53806b0f-58f2-46e9-bd4b-be9eeab58022"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "cb687f44-831b-417c-b462-c959da02756f",
+        "Name": "ActionButton",
+        "ActionGuid": "fe3dc8ff-0057-4ed8-93e2-b8dc11c0cbe0",
+        "Index": 2,
         "ParentGuid": "53806b0f-58f2-46e9-bd4b-be9eeab58022"
       }
     ],

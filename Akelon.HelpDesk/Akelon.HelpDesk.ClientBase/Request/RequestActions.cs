@@ -9,6 +9,19 @@ namespace Akelon.HelpDesk.Client
 {
   partial class RequestActions
   {
+    public virtual void CreateTask(Sungero.Domain.Client.ExecuteActionArgs e)
+    {
+      var task = Sungero.Workflow.SimpleTasks.Create("Задача запущена из обращения " + _obj.Name, Calendar.NextWorkingDay(Calendar.Today), Sungero.Company.Employees.Current);
+      task.ActiveText = "Текст задачи";  
+      //task.Attachments.Add(_obj.Info);
+      task.Start();
+    }
+
+    public virtual bool CanCreateTask(Sungero.Domain.Client.CanExecuteActionArgs e)
+    {
+      return true;
+    }
+
     public virtual void CreateAddendumRequest(Sungero.Domain.Client.ExecuteActionArgs e)
     {
       Functions.Request.Remote.CreateAddendumRequest(_obj).Show();

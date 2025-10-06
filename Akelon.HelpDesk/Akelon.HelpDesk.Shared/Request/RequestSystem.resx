@@ -154,4 +154,19 @@
   <data name="Action_CreateAddendumRequestConfirmationDescription" xml:space="preserve">
     <value />
   </data>
+  <data name="Action_CreateTask" xml:space="preserve">
+    <value>Создать задачу</value>
+  </data>
+  <data name="Action_CreateTaskDescription" xml:space="preserve">
+    <value>CreateTask</value>
+  </data>
+  <data name="Action_CreateTaskHint" xml:space="preserve">
+    <value>Создать задачу</value>
+  </data>
+  <data name="Action_CreateTaskConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CreateTaskConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
 </root>
