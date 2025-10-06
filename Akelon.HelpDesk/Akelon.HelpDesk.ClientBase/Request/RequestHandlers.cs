@@ -12,7 +12,7 @@ namespace Akelon.HelpDesk
 
     public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
     {
-       
+       var i = 1;
     }
 
     public override void Refresh(Sungero.Presentation.FormRefreshEventArgs e)
